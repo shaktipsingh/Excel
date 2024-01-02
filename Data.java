@@ -19,7 +19,7 @@ public class Data {
 		ArrayList<String> a = new ArrayList<String>();
 
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\shakti.singh\\eclipse-workspace\\" + "AA\\Sheet\\Book1.xlsx");
+				"Excel file Location");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		int sheets = workbook.getNumberOfSheets();
