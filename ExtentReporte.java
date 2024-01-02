@@ -17,9 +17,7 @@ import org.testng.xml.XmlSuite;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
- //File which connects to testng
 
-//Testng to this extent reports.
 public class ExtentReporte implements IReporter {
     private ExtentReports extent;
  
