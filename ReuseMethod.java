@@ -29,7 +29,7 @@ public class ReuseMethod {
 	}
 	public static String getSessionKEY()
 	{
-		RestAssured.baseURI= "http://localhost:8080";
+		RestAssured.baseURI= "##";
 		Response res=given().header("Content-Type", "application/json").
 		body("{ \"username\": \" ## ", \"password\": \" ## " }").
 		when().
